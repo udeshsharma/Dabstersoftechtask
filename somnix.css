@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-top: 5px #fe1f07 solid;
+}
+
+#leftside {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  padding: 0;
+  background-image: url("./images/headerfile.jpg");
+  background-attachment: fixed;
+  height: 600px;
+  background-size: contain;
+  background-blend-mode: overlay;
+  background-color: rgb(80, 80, 80,0.7);
+  opacity: 0.95;
+}
+#somnixlogo {
+  background-color: #fe1f07;
+  height: 50px;
+  width: 50px;
+}
+
+#nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+#navlinks {
+  display: flex;
+  gap: 20px;
+}
+#contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#rightside {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  right: 40px;
+}
+#contactusnumber {
+  font-size: 14px;
+}
+#number {
+  font-size: 12px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#searchandcart {
+  display: flex;
+  gap: 30px;
+}
+
+#nav img {
+  height: 30px;
+  width: 30px;
+}
+
+#headertext {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+#headertext h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  position: absolute;
+  width: 300px;
+  left: 20px;
+
+}
+
+#headertext h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 70px;
+left: -150px;
+  top: 50px;
+}
+
+#headertext button{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    background: transparent;
+    border: 3px solid #fe1f07;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-left: 8px solid #fe1f07 ;
+}
+#about{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 550px;
+
+}
+#aboutcornerimage{
+    opacity: 0.7;
+    background-image: url("./images/aboutrigtimage.jpg");
+    background-size: contain;
+    color: #fe1f07;
+    mix-blend-mode: multiply;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    height: 500px;
+    width: 500px;
+    z-index: -1;
+}
+#leftcontent{
+  width: 40%;
+  position: absolute;
+  left: 5%;
+}
+#aboutsections{
+  display: flex;
+  margin-top: 50px;
+gap: 50px;
+}
+#rightimge{
+  /* position: relative; */
+  /* right: 5%; */
+  width: 500px;
+  height: 500px;
+}
+#rightcontent{
+  position: absolute;
+  right: 5%;
+}
+#projectdetails{
+  /* color: white; */
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  border-right: 3px solid #fe1f07;
+  bottom: 3px;
+}
+#projectdetails h1{
+  padding-left: 30px;
+}
+#projectdetails p{
+  position: relative;
+  top: -15px;
+  color: #fe1f07;
+  font-size: 12px;
+  font-family: sans-serif;
+  left: 15px;
+}
+#aboutlist{
+  display: flex;
+  gap: 50px;
+}
+#listitem{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#aboutlist img{
+  height: 18px;
+  width: 18px;
+}
+#aboutlist p{
+  font-family: sans-serif;
+  opacity: 0.9;
+}
+#alignabout{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#buttonabout{
+  position: relative;
+  top: 400px;
+  left: 5%;
+  height: 60px;
+  font-size: 15px;
+  width: 200px;
+  border: 3px solid #fe1f07;
+  border-left: 8px solid #fe1f07;
+background-color: transparent;
+}
+#serviceslist{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10%;
+  right: 10%;
+  gap: 0;
+  width: 90%;
+  
+}
+
+#service{
+  position: relative;
+border: 1px solid gray;
+  height: 250px;
+  width: 28%;
+}
+
+#service img{
+width: 15%;
+position: absolute;
+left: 10%;
+top: 10%;
+}
+#service h3{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 65%;
+  font-size: 20px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+#service p{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  width: 80%;
+  text-align: left;
+  font-family: sans-serif;
+
+}
+#servicesmall{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+  position: relative;
+  left: 40%;
+}
+#servicesmall {
+  color: gray;
+  font-family: sans-serif;
+}
+#servicesheading{
+  position: relative;
+  font-size: 55px;
+  margin: 0;
+  padding-left: 320px;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+#leftarrow{
+position: absolute;
+bottom: 10px;
+left: 10px;
+width: 40px;
+height: 40px;
+
+}
+#rightarrow{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  
+  }
